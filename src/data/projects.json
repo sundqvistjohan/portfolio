@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "name": "Shoe rack"
+    },
+    {
+        "id": 2,
+        "name": "BMI Challenge"
+    },
+    {
+        "id": 3,
+        "name": "FizzBuzz"
+    },
+    {
+        "id": 4,
+        "name": "Run distance calculator"
+    }
+]
