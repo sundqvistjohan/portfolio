@@ -1,18 +1,37 @@
 [
     {
         "id": 1,
-        "name": "Shoe rack"
+        "name": "Shoe rack",
+        "image": "https://www.salomon.com/sites/default/files/products-images/900x900-G/s-lab-sense-7-sg__L40226000.jpg",
+        "description": "My first project, a simple HTML/CSS website.",
+        "tech": "HTML, CSS"
     },
     {
         "id": 2,
-        "name": "BMI Challenge"
+        "name": "BMI Challenge",
+        "image": "https://media.defense.gov/2017/Nov/07/2001839485/780/780/0/171107-F-IW330-1091.JPG",
+        "description": "A BMI calculator that calculates the BMI of the user and returns the BMI. BMI.",
+        "tech": "JavaScript, HTML, CSS"
     },
     {
         "id": 3,
-        "name": "FizzBuzz"
+        "name": "FizzBuzz",
+        "image": "http://www.dr-mikes-math-games-for-kids.com/linkimgs/PIC-fizzbuzz.png",
+        "description": "An implementation of the FizzBuzz challenge using JavaScript.",
+        "tech":"JavaScript, HTML, CSS"
     },
     {
         "id": 4,
-        "name": "Run distance calculator"
+        "name": "Run distance calculator",
+        "image": "https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/74340272_10157782657728993_2985960525168377856_n.jpg?_nc_cat=107&_nc_ohc=yJt9BHdweo0AQktYdu_H1qn-AJW_ZMSo8ytKOm6SM9G0YPVcpZq_X3_vw&_nc_ht=scontent-arn2-1.xx&oh=50a7e991bb2f2eceb664e05509893f6f&oe=5E47C420",
+        "description": "A side project to calculate average running distance needed per day to reach a yearly distance goal.",
+        "tech":"JavaScript, HTML, Strava API"
+    },
+    {
+        "id": 5,
+        "name": "Portfolio",
+        "image": "https://blog.archisnapper.com/wp-content/uploads/architecture-portfolio.jpg",
+        "description": "This site. A portfolio of all my fantastic web development work.",
+        "tech": "React, JavaScript, HTML, CSS"
     }
 ]

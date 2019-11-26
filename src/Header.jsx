@@ -5,10 +5,10 @@ const Header = () => {
     return (
         <nav className='ui fixed inverted menu'>
             <div className='ui container'>
-                <Link className="header item" to ='/'>My Portfolio</Link>
+                <Link className="header item" to ='/'>PORTFOLIO</Link>
                 <div className="right menu">
-                    <NavLink className="ui item" activeStyle={{ fontWeight: "bold" }} to='/about'>About me</NavLink>
-                    <NavLink className="ui item" activeStyle={{ fontWeight: "bold" }} to='/projects'>Projects</NavLink>
+                    <NavLink className="ui item" activeStyle={{ fontWeight: "bold" }} to='/about'>ABOUT</NavLink>
+                    <NavLink className="ui item" activeStyle={{ fontWeight: "bold" }} to='/projects'>PROJECTS</NavLink>
                 </div>
             </div>
         </nav>

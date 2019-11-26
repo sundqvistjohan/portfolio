@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import axios from "axios"
+import ProjectCard from "./ProjectCard"
 
 class Projects extends Component {
     constructor() {
@@ -26,20 +27,18 @@ class Projects extends Component {
             projectsList = projects.map(project => {
                 return (
                     <div key={project.id}>
-                        <h3 className="ui header">
-                            {project.name}
-                        </h3>
+                        <ProjectCard project={project} />
                     </div>
                 )
             })
         }
 
         return (
-
             <div className="ui main container">
-                <h1 className="ui header">
+                <h1 className="ui header">PROJECTS</h1>
+                <div className="ui stackable four column grid">
                     {projectsList}
-                </h1>
+                </div>
             </div>
         )
     }
