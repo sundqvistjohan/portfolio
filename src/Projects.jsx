@@ -25,9 +25,9 @@ class Projects extends Component {
         let projectsList
 
         if (projects.length > 0) {
-            projectsList = projects.map(project => {
+            projectsList = projects.reverse().map(project => {
                 return (
-                    <div key={project.id}>
+                    <div class="padcard" key={project.id}>
                         <ProjectCard project={project} />
                     </div>
                 )
