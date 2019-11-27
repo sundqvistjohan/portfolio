@@ -1,5 +1,13 @@
+.menu {
+    height: 50px;
+}
+
+body {
+    background-image: url(https://images.pexels.com/photos/1054222/pexels-photo-1054222.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
 footer {
-    position: relative;
+    position: fixed;
     display: block;
     bottom: 0;
     width: 100%;
@@ -13,28 +21,52 @@ footer {
     text-align: center;
 }
 
-body {
-    background-image: url(https://images.pexels.com/photos/1054222/pexels-photo-1054222.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-}
+#hello {
+    height: 75vh;
+    width: 100%;
+    text-align: center;
+  }
 
-.main.container {
-    position: relative;
-    min-height: 100vh;
-    margin-top: 4em;
-    padding-bottom: 1rem;
-}
 .ui.card {
     width: 260px;
 }
 .image {
     height: 260px;
-    width:2 60px;
+    width: 260px;
 }
 
 .description {
     height: 57px
 }
 
+.projects-header {
+    font-size: 40px;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    text-align: right;
+}
+
+.main.container {
+    margin-bottom: 5em;
+}
+
+.hello-header {
+    font-size: 140px;
+    line-height: 130px;
+    margin: 0px;
+}
+.hello-content {
+    font-size: 20px;
+    padding-bottom: 4rem;
+}
+.about {
+    text-align: justify;
+}
+.about.header {
+    font-size: 40px;
+    line-height: 32px;
+    
+}
 .padcard {
     padding-top: 1rem;
     padding-bottom: 1rem;
