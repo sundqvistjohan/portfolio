@@ -23,9 +23,16 @@ body {
     margin-top: 4em;
     padding-bottom: 1rem;
 }
-
+.ui.card {
+    width: 260px;
+}
 .image {
-    height: 290px;
+    height: 260px;
+    width:2 60px;
+}
+
+.description {
+    height: 57px
 }
 
 .padcard {
