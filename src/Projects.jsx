@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import axios from "axios"
 import ProjectCard from "./ProjectCard"
-import { UndrawDesigner } from "react-undraw-illustrations"
+//import { UndrawDesigner } from "react-undraw-illustrations"
 
 class Projects extends Component {
     constructor() {
@@ -38,7 +38,7 @@ class Projects extends Component {
             <div className="ui main container">
                 <div className="ui stackable two column grid">
                     <div className="column">
-                        <UndrawDesigner height="250px" />
+                        {/* <UndrawDesigner height="250px" /> */}
                     </div>
                     <div className="column">
                         <h1 className="ui header">PROJECTS</h1>
