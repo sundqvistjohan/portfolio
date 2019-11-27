@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Shoe rack",
+        "image": "https://live.staticflickr.com/7338/11470677845_0529117486_z.jpg",
+        "description": "My first project, an ugly site using simple HTML/CSS.",
+        "tech": "HTML, CSS",
+        "link": "https://sundqvistjohan.github.io/"
+    },
+    {
+        "id": 2,
+        "name": "BMI Calculator",
+        "image": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/analysis_4jis.svg",
+        "description": "A BMI calculator that calculates the BMI of the user and returns the BMI. BMI.",
+        "tech": "JavaScript, HTML, CSS",
+        "link": "https://sundqvistjohan.github.io/BMI_Challenge/"
+    },
+    {
+        "id": 3,
+        "name": "FizzBuzz",
+        "image": "https://i.imgur.com/iqtCNVw.png",
+        "description": "An implementation of the FizzBuzz challenge using JavaScript.",
+        "tech":"JavaScript, HTML, CSS",
+        "link": "https://sundqvistjohan.github.io/fizzbuzz_js_johan/"
+    },
+    {
+        "id": 4,
+        "name": "Run distance calculator",
+        "image": "https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/74340272_10157782657728993_2985960525168377856_n.jpg?_nc_cat=107&_nc_ohc=yJt9BHdweo0AQktYdu_H1qn-AJW_ZMSo8ytKOm6SM9G0YPVcpZq_X3_vw&_nc_ht=scontent-arn2-1.xx&oh=50a7e991bb2f2eceb664e05509893f6f&oe=5E47C420",
+        "description": "A calculator for average distance needed per day to reach a yearly distance goal.",
+        "tech":"JavaScript, HTML, Strava API",
+        "link": "https://sundqvistjohan.github.io/run-distance-calculator/"
+    },
+    {
+        "id": 5,
+        "name": "Address book",
+        "image": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/address_udes.svg",
+        "description": "An adress book application using Semantic UI for styling.",
+        "tech":"JavaScript, HTML, CSS",
+        "link": "https://sundqvistjohan.github.io/address_book/"
+    },
+    {
+        "id": 6,
+        "name": "Portfolio",
+        "image": "https://i.imgur.com/XRiqtNs.png",
+        "description": "This site. A portfolio of my fantastic web development work and projects.",
+        "tech": "React, JavaScript, HTML, CSS",
+        "link": "https://jsundq-portfolio.netlify.com/"
+    }
+]

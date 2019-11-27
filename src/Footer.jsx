@@ -4,7 +4,9 @@ const Footer = () => {
     return (
         <footer>
             <div className='ui container'>
-                <p>Made with React {React.version}</p>
+                <p>
+                    Created by Johan Sundqvist<br></br>
+                    Made with React {React.version}</p>
             </div>
         </footer>
     )
