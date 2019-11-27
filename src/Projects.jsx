@@ -1,7 +1,6 @@
 import React, { Component } from "react"
 import axios from "axios"
 import ProjectCard from "./ProjectCard"
-//import { UndrawDesigner } from "react-undraw-illustrations"
 
 class Projects extends Component {
     constructor() {
@@ -36,15 +35,7 @@ class Projects extends Component {
 
         return (
             <div className="ui main container">
-                <div className="ui stackable two column grid">
-                    <div className="column">
-                        {/* <UndrawDesigner height="250px" /> */}
-                    </div>
-                    <div className="column">
-                        <h1 className="ui header">PROJECTS</h1>
-                        <p>Information about my projects.</p>
-                    </div>
-                </div>
+                <h1 className="ui center aligned header">PROJECTS</h1>
                 <div className="ui stackable four column grid">
                     {projectsList}
                 </div>

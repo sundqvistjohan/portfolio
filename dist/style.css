@@ -6,7 +6,8 @@ footer {
     height: 60px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #ffffff;
+    background-color: black;
+    color: lightgray;
     margin-top: 0;
     margin-bottom: 0;
     text-align: center;
