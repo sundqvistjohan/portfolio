@@ -5,8 +5,7 @@ const Footer = () => {
         <footer>
             <div className='ui container'>
                 <p>
-                    Made by Johan Sundqvist<br></br>
-                    
+                    Created by Johan Sundqvist<br></br>
                     Made with React {React.version}</p>
             </div>
         </footer>

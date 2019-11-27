@@ -17,7 +17,6 @@ const App = () => {
                 <Route exact path='/about' component={About}></Route>
                 <Route exact path='/projects' component={Projects}></Route>
             </Switch>
-            <div class ="gap"></div>
             <Footer />
         </div>
     )

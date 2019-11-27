@@ -4,11 +4,11 @@ const ProjectCard = (props) => {
     let project = props.project
     return (
         <div className="ui card">
-            <div className="image">
+            <a className="image" href={project.link}>
                 <img src={project.image} />
-            </div>
+            </a>
             <div className="content">
-                <h3 className="ui header">{project.name}</h3>
+                <a className="ui header" href={project.link}>{project.name}</a>
                 <div className="description">
                     {project.description}
                 </div>
