@@ -5,7 +5,7 @@ const Footer = () => {
         <footer>
             <div className='ui container'>
                 <div className="ui two column grid">
-                    <div className="column">
+                    <div className="column left aligned">
                         <a className="ui github button" href="https://github.com/sundqvistjohan/">
                             <i className="github icon"></i>
                             GitHub
@@ -16,7 +16,7 @@ const Footer = () => {
                         </a>
 
                         </div>
-                        <div className="column">
+                        <div className="column right aligned">
                             <p>
                                 Johan Sundqvist ©2019<br></br>
                                 Made with React {React.version}</p>       
