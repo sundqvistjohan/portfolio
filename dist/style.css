@@ -6,7 +6,8 @@ footer {
     height: 60px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #ffffff;
+    background-color: black;
+    color: lightgray;
     margin-top: 0;
     margin-bottom: 0;
     text-align: center;
@@ -22,9 +23,16 @@ body {
     margin-top: 4em;
     padding-bottom: 1rem;
 }
-
+.ui.card {
+    width: 260px;
+}
 .image {
-    height: 290px;
+    height: 260px;
+    width:2 60px;
+}
+
+.description {
+    height: 57px
 }
 
 .padcard {
