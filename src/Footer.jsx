@@ -8,21 +8,20 @@ const Footer = () => {
                     <div className="column left aligned">
                         <a className="ui github button" href="https://github.com/sundqvistjohan/">
                             <i className="github icon"></i>
-                            GitHub
+                            <span className="mobile hidden">GitHub</span>
                         </a>
                         <a className="ui linkedin button" href="https://www.linkedin.com/in/sundqvistjohan/">
                             <i className="linkedin icon"></i>
-                            LinkedIn
+                            <span className="mobile hidden">LinkedIn</span>
                         </a>
-
-                        </div>
-                        <div className="column right aligned">
-                            <p>
-                                Johan Sundqvist ©2019<br></br>
-                                Made with React {React.version}</p>       
-                        </div>
+                    </div>
+                    <div className="column right aligned">
+                        <p>
+                            Johan Sundqvist ©2019<br></br>
+                            Made with React {React.version}</p>
                     </div>
                 </div>
+            </div>
         </footer>
     )
 }

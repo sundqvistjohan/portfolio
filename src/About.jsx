@@ -6,8 +6,8 @@ const About = () => {
         <div className="ui main container">
             <div id="hello" className='ui middle aligned two column grid'>
                 <div className="row">
-                    <div className="column">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png" height="300px" width="300px" />
+                    <div className="column ">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png" className="about-image" />
                     </div>
                     <div className="column">
                         <div className="about header">
