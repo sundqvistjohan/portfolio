@@ -4,6 +4,9 @@
 
 body {
     background-image: url(https://images.pexels.com/photos/1054222/pexels-photo-1054222.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 footer {
@@ -18,11 +21,10 @@ footer {
     color: lightgray;
     margin-top: 0;
     margin-bottom: 0;
-    text-align: center;
 }
 
-#hello {
-    height: 75vh;
+#centered {
+    height: 60vh;
     width: 100%;
     text-align: center;
   }
@@ -65,11 +67,24 @@ footer {
 .about.header {
     font-size: 40px;
     line-height: 32px;
-    
+}
+.about-image {
+    max-width: 300px;
+    max-height: 300px;
 }
 .padcard {
     padding-top: 1rem;
     padding-bottom: 1rem;
+}
+@media only screen and (max-width: 600px) {
+    .mobile.hidden {
+        display: none;
+    }
+    .ui.button {
+        padding-right: 11px;
+        margin-right: 10px;
+    }
+    
 }
 
 
