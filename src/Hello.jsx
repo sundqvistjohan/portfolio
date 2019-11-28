@@ -2,10 +2,24 @@ import React from "react"
 
 const Hello = () => {
     return (
-        <div className='ui main container'>
-            <h1>
-                Hello World
-            </h1>
+        <div className="ui main container">
+            <div id="centered" className='ui middle aligned grid'>
+                <div className="row">
+                    <div className="column">
+                        <h1 className="hello-header">
+                            Hi!
+                        </h1>
+                        <div className="hello-content">
+                        I'm Johan Sundqvist
+                        </div>
+                        <a className="ui right labeled large icon basic button" href="/projects">PROJECTS
+                        <i className="angle double right icon"></i>
+                        
+                        </a>
+                    </div>
+                </div>
+            </div>
+
         </div>
     )
 };
