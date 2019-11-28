@@ -1,5 +1,4 @@
 import React from "react"
-//import { UndrawDigitalNomad } from "react-undraw-illustrations"
 
 const About = () => {
     return (

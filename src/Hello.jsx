@@ -3,7 +3,7 @@ import React from "react"
 const Hello = () => {
     return (
         <div className="ui main container">
-            <div id="hello" className='ui middle aligned grid'>
+            <div id="centered" className='ui middle aligned grid'>
                 <div className="row">
                     <div className="column">
                         <h1 className="hello-header">
