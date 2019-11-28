@@ -3,7 +3,7 @@ import React from "react"
 const About = () => {
     return (
         <div className="ui main container">
-            <div id="hello" className='ui middle aligned two column grid'>
+            <div id="centered" className='ui middle aligned two column grid'>
                 <div className="row">
                     <div className="column ">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png" className="about-image" />
