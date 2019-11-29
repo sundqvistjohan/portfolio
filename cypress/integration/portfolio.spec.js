@@ -19,6 +19,7 @@ context('Portfolio', () => {
         it('navigates to projects page', () => {
             cy.get('nav')
               .should('contain', 'PROJECTS')
+              .get('#projects-link')
               .click()
         })
 
@@ -42,6 +43,20 @@ context('Portfolio', () => {
             .should('contain','Strava API')
         });
     })
+
+    describe('can find a CV link in menu, can click it and lands on CV page', () => {
+        it('', () => {
+            cy.visit('/')
+              .get('nav')
+              .should('contain', 'CV')
+              .get('#cv-link')
+              .click()
+              .get('.cv-header')
+              .should('contain', 'CV')
+            
+        });
+    })
+    
     
 });
 
