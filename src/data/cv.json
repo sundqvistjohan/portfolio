@@ -1,0 +1,54 @@
+[
+    {
+        "name": "Johan Sundqvist",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png",
+        "short": "Short summary???",
+        "skills": ["Web development", "React", "JavaScript", "Ruby"],
+        "experience": [
+            {
+                "employer": "Sundq Konsult",
+                "start": "2018-08",
+                "end": "2019-10",
+                "description": "Assignment at Volvo Cars. Component owner for the Electric Vehicle Inlet and Design Engineer for High Voltage electrical harnesses ",
+                "tools": ["CATIA", "TeamCenter"]
+            },
+            {
+                "employer": "Sigma Industry West",
+                "start": "2016-02",
+                "end": "2018-08",
+                "description": "Design Engineer at Volvo Cars Body Structures, 2016-03 to 2017-03. Design Engineer for High Voltage electrical harnesses working for Aptiv as a full-service supplier to Volvo Cars, 2017-04 to 2018-08",
+                "tools": ["CATIA", "TeamCenter"]
+            },
+            {
+                "employer": "inContext",
+                "start": "2018-08",
+                "end": "2019-10",
+                "description": "Wire harness design engineer at Scania CV, 2013-10 to 2015-05. Wiring engineer at Volvo Trucks 2015-05 to 2016-02.",
+                "tools": ["CATIA", "Enovia", "KOLA"]
+            }],
+        "education": [
+            {
+                "school": "Craft Academy",
+                "start": "2019-11",
+                "end": "2020-02",
+                "degree": "?",
+                "field": "Full-Stack Web Development"
+            },
+            {
+                "school": "Linköping University",
+                "start": "2008-07",
+                "end": "2013-06",
+                "degree": "Master of Science",
+                "field": "Design and Product Development"
+            },
+            {
+                "school": "University of California, San Diego",
+                "start": "20011-09",
+                "end": "2011-12",
+                "degree": "Independent courses?",
+                "field": "Mechanical Engineering"
+            }],     
+            "languages": ["Swedish", "English"],
+            "interests": "Running, etc"
+    }
+]
