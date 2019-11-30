@@ -1,8 +1,9 @@
 [
     {
+        "id": "1",
         "name": "Johan Sundqvist",
         "image": "https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png",
-        "short": "Short summary???",
+        "short": "Mechanical engineer turned Web developer...",
         "skills": ["Web development", "React", "JavaScript", "Ruby"],
         "experience": [
             {

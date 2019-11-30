@@ -44,8 +44,8 @@ context('Portfolio', () => {
         });
     })
 
-    describe('can find a CV link in menu, can click it and lands on CV page', () => {
-        it('', () => {
+    describe('has a CV page with the authors resume', () => {
+        it('can find a CV link in menu, can click it and lands on CV page', () => {
             cy.visit('/')
               .get('nav')
               .should('contain', 'CV')
@@ -53,8 +53,15 @@ context('Portfolio', () => {
               .click()
               .get('.cv-header')
               .should('contain', 'CV')
-            
         });
+        it('has resume content (created from json file)', () => {
+            cy.visit('/cv')
+              .get('.cv-content')
+              .should('contain', 'Johan Sundqvist')
+              .and('contain', 'Swedish')
+              .and('contain', 'Employer: inContext')
+        });
+
     })
     
     
