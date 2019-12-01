@@ -46,16 +46,20 @@ class CV extends Component {
 
             return (
                 <div className="ui main container">
-                    <div id="centered" className='ui middle aligned two column grid'>
+                    <div className='ui stackable two column grid'>
                         <div className="row">
-                            <div className="column">
-                                <img src="" className="cv-image" />
+                            <div className="center aligned column six wide">
+                                <img src={resume[0].image} className="cv-image" style={{marginTop: "8rem"}}/>
                             </div>
-                            <div className="column">
+                            <div className="ten wide column">
                                 <div className="cv-header">
-                                    CV {resume[0].name}
+                                    {resume[0].name}
                                 </div>
+                                Web developer<p></p>
                                 <div className="cv-content">
+                                    <div className="column cv">
+                                        {resume[0].short}
+                                    </div>
                                     <div className="ui header">
                                         EXPERIENCE
                                     </div>

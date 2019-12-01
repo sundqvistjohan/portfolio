@@ -52,11 +52,6 @@ context('Portfolio', () => {
               .get('#cv-link')
               .click()
               .get('.cv-header')
-              .should('contain', 'CV')
-        });
-        it('has resume content (created from json file)', () => {
-            cy.visit('/cv')
-              .get('.cv-header')
               .should('contain', 'Johan Sundqvist')
         });
         it('renders both Experience and Education from same component', () => {
@@ -64,6 +59,12 @@ context('Portfolio', () => {
               .get('.cv-content')
               .should('contain', 'Sundq Konsult')
               .and('contain', 'Craft Academy')
+        });
+        it('has the correct picture', () => {
+            cy.visit('/cv')
+              .get('img')
+              .should('have.attr', 'src')
+              .and('include', '74340272_10157782657728993_2985960525168377856_n')
         });
 
     })

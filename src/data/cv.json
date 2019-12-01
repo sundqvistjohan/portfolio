@@ -2,30 +2,30 @@
     {
         "id": "1",
         "name": "Johan Sundqvist",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png",
-        "short": "Mechanical engineer turned Web developer...",
+        "image": "https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/74340272_10157782657728993_2985960525168377856_n.jpg?_nc_cat=107&_nc_ohc=yJt9BHdweo0AQktYdu_H1qn-AJW_ZMSo8ytKOm6SM9G0YPVcpZq_X3_vw&_nc_ht=scontent-arn2-1.xx&oh=50a7e991bb2f2eceb664e05509893f6f&oe=5E47C420",
+        "short": "Mechanical engineer turned Web developer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "skills": ["Web development", "React", "JavaScript", "Ruby"],
         "experience": [
             {
                 "organization": "Sundq Konsult",
                 "start": "2018-08",
-                "end": "2019-10",
+                "end": "Present",
                 "title": "Component owner",
-                "description": "Component owner at Volvo Cars for the Electric Vehicle Inlet and Design Engineer for High Voltage electrical harnesses."
+                "description": "Component owner at Volvo Cars for the Electric Vehicle Inlet and Design Engineer for High Voltage electrical harnesses (2018-08 to 2019-10)."
             },
             {
                 "organization": "Sigma Industry West",
                 "start": "2016-02",
                 "end": "2018-08",
                 "title": "Design Engineer",
-                "description": "Design Engineer at Volvo Cars Body Structures, 2016-03 to 2017-03. Design Engineer for High Voltage electrical harnesses working for Aptiv as a full-service supplier to Volvo Cars, 2017-04 to 2018-08"
+                "description": "Aptiv HV Harness as full-service supplier to Volvo Cars (2017-04 to 2018-08). \rVolvo Cars Body Structures (2016-03 to 2017-03). "
             },
             {
                 "organization": "inContext",
                 "start": "2013-09",
                 "end": "2016-02",
                 "title": "Design Engineer",
-                "description": "Wire harness design engineer at Scania CV, 2013-10 to 2015-05. Wiring engineer at Volvo Trucks, 2015-05 to 2016-02."
+                "description": "Wire harness design engineer at Scania CV (2013-10 to 2015-05). \rWiring engineer at Volvo Trucks, 2015-05 to 2016-02."
                 
             }],
         "education": [

@@ -9,7 +9,8 @@ const CVContent = (props) => {
             <div className="column cv">
                 <i>{content.start} to {content.end}<br></br></i>
                 <b>{content.organization}<br></br></b>
-                {content.description}
+                <i>{content.title}</i>
+                <p>{content.description}</p>
             </div>
         )
     } else {
@@ -18,7 +19,8 @@ const CVContent = (props) => {
             <div className="column cv">
                 <i>{content.start} to {content.end}<br></br></i>
                 <b>{content.organization}<br></br></b>
-                {content.description}
+                <i>{content.title}</i>
+                <p>{content.description}</p>
             </div>
         )
     }
