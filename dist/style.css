@@ -87,4 +87,9 @@ footer {
 
 .column.cv {
     background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+}
+
+li {
+    list-style-type: none;
 }

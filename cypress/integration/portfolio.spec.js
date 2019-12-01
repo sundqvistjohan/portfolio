@@ -56,10 +56,14 @@ context('Portfolio', () => {
         });
         it('has resume content (created from json file)', () => {
             cy.visit('/cv')
-              .get('.cv-content')
+              .get('.cv-header')
               .should('contain', 'Johan Sundqvist')
-              .and('contain', 'Swedish')
-              .and('contain', 'Employer: inContext')
+        });
+        it('renders both Experience and Education from same component', () => {
+            cy.visit('/cv')
+              .get('.cv-content')
+              .should('contain', 'Sundq Konsult')
+              .and('contain', 'Craft Academy')
         });
 
     })

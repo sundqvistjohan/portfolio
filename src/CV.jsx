@@ -7,7 +7,6 @@ class CV extends Component {
         super();
         this.state = {
             resume: []
-
         };
     }
 
@@ -25,6 +24,7 @@ class CV extends Component {
         const resume = this.state.resume
         // console.log(resume)
         let experienceList
+        let educationList
 
 
         if (resume.length > 0) {
@@ -35,6 +35,14 @@ class CV extends Component {
                     </div>
                 )
             })
+            educationList = resume[0].education.map((education, index) => {
+                return (
+                    <div class="column" key={index}>
+                        <CVContent education={education} />
+                    </div>
+                )
+                })
+
 
             return (
                 <div className="ui main container">
@@ -45,30 +53,51 @@ class CV extends Component {
                             </div>
                             <div className="column">
                                 <div className="cv-header">
-                                    CV
+                                    CV {resume[0].name}
                                 </div>
                                 <div className="cv-content">
-                                    <li>{resume[0].name}</li><br></br>
                                     <div className="ui header">
                                         EXPERIENCE
                                     </div>
                                     <div className="ui three column grid">
                                         {experienceList}
                                     </div>
+                                    <div className="ui header">
+                                        EDUCATION
+                                    </div>
                                     <div className="ui three column grid">
-                                        <div className="column cv">
-                                            {resume[0].skills.map((item, index) => {
-                                                return (
-                                                    <li key={index}>{item}</li>
-                                                )
-                                            })}
+                                        {educationList}
+                                    </div>
+                                    <div className="ui three column grid">
+                                        <div className="column">
+                                            <div className="column cv">
+                                            <div className="ui header">SKILLS</div>
+                                                {resume[0].skills.map((item, index) => {
+                                                    return (
+                                                        <li key={index}>{item}</li>
+                                                    )
+                                                })}
+                                            </div>
                                         </div>
-                                        <div className="column cv">
-                                            {resume[0].languages.map((item, index) => {
-                                                return (
-                                                    <li key={index}>{item}</li>
-                                                )
-                                            })}
+                                        <div className="column">
+                                            <div className="column cv">
+                                            <div className="ui header">LANGUAGES</div>
+                                                {resume[0].languages.map((item, index) => {
+                                                    return (
+                                                        <li key={index}>{item}</li>
+                                                    )
+                                                })}
+                                            </div>
+                                        </div>
+                                        <div className="column">
+                                            <div className="column cv">
+                                            <div className="ui header">INTERESTS</div>
+                                                {resume[0].interests.map((item, index) => {
+                                                    return (
+                                                        <li key={index}>{item}</li>
+                                                    )
+                                                })}
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

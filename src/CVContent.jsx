@@ -1,16 +1,31 @@
 import React from "react"
 
 const CVContent = (props) => {
-    let experience = props.experience
-    console.log(experience)
-    return (
-        <div className="column cv">
-            <i>{experience.start} - {experience.end}<br></br></i>
-            <b>{experience.employer}<br></br></b>
-            {experience.description}
-        </div>
 
-    )
+    if (props['experience']) {
+        let content = props.experience
+        console.log(content)
+        return (
+            <div className="column cv">
+                <i>{content.start} to {content.end}<br></br></i>
+                <b>{content.organization}<br></br></b>
+                {content.description}
+            </div>
+        )
+    } else {
+        let content = props.education
+        return (
+            <div className="column cv">
+                <i>{content.start} to {content.end}<br></br></i>
+                <b>{content.organization}<br></br></b>
+                {content.description}
+            </div>
+        )
+    }
+    
 }
+
+    
+
 
 export default CVContent
