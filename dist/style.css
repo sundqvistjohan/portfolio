@@ -61,16 +61,13 @@ footer {
     font-size: 20px;
     padding-bottom: 4rem;
 }
-.about {
-    text-align: justify;
-}
-.about.header {
+.cv-header {
     font-size: 40px;
     line-height: 32px;
 }
-.about-image {
+.cv-image {
     max-width: 300px;
-    max-height: 300px;
+    max-height: 300px;   
 }
 .padcard {
     padding-top: 1rem;
@@ -86,5 +83,11 @@ footer {
     }
     
 }
+.column.cv {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+}
 
-
+li {
+    list-style-type: none;
+}
