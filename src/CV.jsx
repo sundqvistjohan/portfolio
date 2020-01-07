@@ -22,7 +22,6 @@ class CV extends Component {
 
     render() {
         const resume = this.state.resume
-        // console.log(resume)
         let experienceList
         let educationList
 
@@ -31,18 +30,17 @@ class CV extends Component {
             experienceList = resume[0].experience.map((experience, index) => {
                 return (
                     <div class="column" key={index}>
-                        <CVContent experience={experience} />
+                        <CVContent data={experience} />
                     </div>
                 )
             })
             educationList = resume[0].education.map((education, index) => {
                 return (
                     <div class="column" key={index}>
-                        <CVContent education={education} />
+                        <CVContent data={education} />
                     </div>
                 )
                 })
-
 
             return (
                 <div className="ui main container">
