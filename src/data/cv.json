@@ -2,9 +2,14 @@
     {
         "id": "1",
         "name": "Johan Sundqvist",
-        "image": "https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/74340272_10157782657728993_2985960525168377856_n.jpg?_nc_cat=107&_nc_ohc=yJt9BHdweo0AQktYdu_H1qn-AJW_ZMSo8ytKOm6SM9G0YPVcpZq_X3_vw&_nc_ht=scontent-arn2-1.xx&oh=50a7e991bb2f2eceb664e05509893f6f&oe=5E47C420",
+        "image": "/img/IMG_1365.JPG",
         "short": "Mechanical engineer turned Web developer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "skills": ["Web development", "React", "JavaScript", "Ruby"],
+        "skills": [
+            "Web development",
+            "React",
+            "JavaScript",
+            "Ruby"
+        ],
         "experience": [
             {
                 "organization": "Sundq Konsult",
@@ -26,8 +31,8 @@
                 "end": "2016-02",
                 "title": "Design Engineer",
                 "description": "Wire harness design engineer at Scania CV (2013-10 to 2015-05). \rWiring engineer at Volvo Trucks, 2015-05 to 2016-02."
-                
-            }],
+            }
+        ],
         "education": [
             {
                 "organization": "Craft Academy",
@@ -49,8 +54,15 @@
                 "end": "2011-12",
                 "title": "Independent courses",
                 "description": "Courses in Mechanical Engineering"
-            }],     
-            "languages": ["Swedish", "English"],
-            "interests": ["Running", "Other stuff"]
+            }
+        ],
+        "languages": [
+            "Swedish",
+            "English"
+        ],
+        "interests": [
+            "Running",
+            "Other stuff"
+        ]
     }
 ]

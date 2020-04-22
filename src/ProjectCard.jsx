@@ -1,6 +1,6 @@
 import React from "react";
 
-const ProjectCard = props => {
+const ProjectCard = (props) => {
   let project = props.project;
   return (
     <div className="ui card">
@@ -15,10 +15,10 @@ const ProjectCard = props => {
         <i>{project.tech}</i>
       </div>
       <div className="extra content">
-      <a href={project.github}>
-            <i className="github icon"></i>
-            <span>Github Repository</span>
-          </a>
+        <a href={project.github}>
+          <i className="github icon"></i>
+          <span>Github Repository</span>
+        </a>
       </div>
     </div>
   );
