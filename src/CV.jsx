@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 import CVContent from "./CVContent";
+import Image from "./img/IMG_1365.jpg"
 
 class CV extends Component {
   constructor() {
@@ -45,7 +46,7 @@ class CV extends Component {
             <div className="row">
               <div className="center aligned column six wide">
                 <img
-                  src={resume[0].image}
+                  src={Image}
                   className="cv-image"
                   style={{ marginTop: "8rem" }}
                 />
