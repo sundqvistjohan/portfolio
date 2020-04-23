@@ -5,12 +5,12 @@ const Header = () => {
   return (
     <nav className="ui secondary menu">
       <div className="ui container">
-        <Link className="ui item" to="/">
+        <Link className="ui item" id="navlink" to="/">
           PORTFOLIO
         </Link>
         <div className="right menu">
           <NavLink
-            id="cv-link"
+            id="navlink"
             className="ui item"
             activeStyle={{ fontWeight: "bold" }}
             to="/cv"
@@ -18,7 +18,7 @@ const Header = () => {
             CV
           </NavLink>
           <NavLink
-            id="projects-link"
+            id="navlink"
             className="ui item"
             activeStyle={{ fontWeight: "bold" }}
             to="/projects"
@@ -26,7 +26,7 @@ const Header = () => {
             PROJECTS
           </NavLink>
           <NavLink
-            id="contact-link"
+            id="navlink"
             className="ui item"
             activeStyle={{ fontWeight: "bold" }}
             to="/contact"

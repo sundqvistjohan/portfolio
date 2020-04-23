@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 import CVContent from "./CVContent";
-import Image from "./img/IMG_1365.jpg"
+import Image from "./img/IMG_1365.jpg";
 
 class CV extends Component {
   constructor() {
@@ -44,26 +44,39 @@ class CV extends Component {
         <div className="ui main container">
           <div className="ui stackable two column grid">
             <div className="row">
-              <div className="center aligned column six wide">
+              <div className="center aligned column four wide">
                 <img
                   src={Image}
                   className="cv-image"
                   style={{ marginTop: "8rem" }}
                 />
               </div>
-              <div className="ten wide column">
+              <div className="twelve wide column">
                 <div className="cv-header">{resume[0].name}</div>
                 Web developer<p></p>
                 <div className="cv-content">
                   <div className="column cv">{resume[0].short}</div>
-                  <div className="ui header">EXPERIENCE</div>
+
+                  <h3 className="ui header">EXPERIENCE</h3>
                   <div className="ui three column grid">{experienceList}</div>
-                  <div className="ui header">EDUCATION</div>
+
+                  <h3 className="ui header">EDUCATION</h3>
                   <div className="ui three column grid">{educationList}</div>
+
                   <div className="ui three column grid">
+                    <div className="row">
+                      <div className="column">
+                        <div className="ui header">SKILLS</div>
+                      </div>
+                      <div className="column">
+                        <div className="ui header">LANGUAGES</div>
+                      </div>
+                      <div className="column">
+                        <div className="ui header">INTERESTS</div>
+                      </div>
+                    </div>
                     <div className="column">
                       <div className="column cv">
-                        <div className="ui header">SKILLS</div>
                         {resume[0].skills.map((item, index) => {
                           return <li key={index}>{item}</li>;
                         })}
@@ -71,7 +84,6 @@ class CV extends Component {
                     </div>
                     <div className="column">
                       <div className="column cv">
-                        <div className="ui header">LANGUAGES</div>
                         {resume[0].languages.map((item, index) => {
                           return <li key={index}>{item}</li>;
                         })}
@@ -79,7 +91,6 @@ class CV extends Component {
                     </div>
                     <div className="column">
                       <div className="column cv">
-                        <div className="ui header">INTERESTS</div>
                         {resume[0].interests.map((item, index) => {
                           return <li key={index}>{item}</li>;
                         })}

@@ -1,32 +1,5 @@
 [
     {
-        "id": 1,
-        "name": "BMI Calculator",
-        "image": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/analysis_4jis.svg",
-        "description": "A calculator that calculates the BMI of the user.",
-        "tech": "JavaScript, HTML, CSS",
-        "link": "https://sundqvistjohan.github.io/BMI_Challenge/",
-        "github": "https://github.com/sundqvistjohan/BMI_Challenge"
-    },
-    {
-        "id": 2,
-        "name": "FizzBuzz",
-        "image": "https://i.imgur.com/iqtCNVw.png",
-        "description": "An implementation of the FizzBuzz challenge using JavaScript.",
-        "tech": "JavaScript, HTML, CSS",
-        "link": "https://sundqvistjohan.github.io/fizzbuzz_js_johan/",
-        "github": "https://github.com/sundqvistjohan/fizzbuzz_js_johan"
-    },
-    {
-        "id": 3,
-        "name": "Address book",
-        "image": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/address_udes.svg",
-        "description": "An adress book application using Semantic UI for styling.",
-        "tech": "JavaScript, HTML, CSS",
-        "link": "https://sundqvistjohan.github.io/address_book/",
-        "github": "https://github.com/sundqvistjohan/address_book"
-    },
-    {
         "id": 4,
         "name": "Portfolio",
         "image": "https://i.imgur.com/XRiqtNs.png",
@@ -43,15 +16,6 @@
         "tech": "Ruby on rails",
         "link": "https://slowfood-oct2019.herokuapp.com/",
         "github": "https://github.com/sundqvistjohan/slowfood-october-2019"
-    },
-    {
-        "id": 6,
-        "name": "Extreme invoicing",
-        "image": "https://www.labotec.co.za/wp-content/uploads/placeholder.png",
-        "description": "Group project, a SaaS invoicing service built in Ruby on Rails.",
-        "tech": "Ruby on rails",
-        "link": "https://extreme-invoicing.herokuapp.com/",
-        "github": "https://github.com/sundqvistjohan/extreme-invoicing-october-2019"
     },
     {
         "id": 7,
