@@ -4,8 +4,8 @@
         "name": "Portfolio",
         "image": "https://i.imgur.com/XRiqtNs.png",
         "description": "This site. A portfolio of my fantastic web development work and projects.",
-        "tech": "React, JavaScript, HTML, CSS",
-        "link": "https://jsundq-portfolio.netlify.com/",
+        "tech": "React",
+        "link": "https://jsundq-portfolio.netlify.app/",
         "github": "https://github.com/sundqvistjohan/portfolio"
     },
     {
@@ -21,9 +21,36 @@
         "id": 7,
         "name": "Rock-Paper-Scissors",
         "image": "https://i.imgur.com/qDscCaY.png",
-        "description": "Rock-Paper-Scissors game versus a computer opponent, written in React.",
+        "description": "Rock-Paper-Scissors game versus a computer opponent.",
         "tech": "React",
-        "link": "https://sundq-rps.netlify.com/",
+        "link": "https://sundq-rps.netlify.app/",
         "github": "https://github.com/sundqvistjohan/rock-paper-scissors"
+    },
+    {
+        "id": 7,
+        "name": "Cooper calculator",
+        "image": "https://i.imgur.com/qDscCaY.png",
+        "description": "Cooper fitness calculator. Login credentials: user@mail.com / password.",
+        "tech": "React front-end, tested with cypress. Ruby on Rails back-end.",
+        "link": "https://jsundq-cooper.netlify.app/",
+        "github": "https://github.com/sundqvistjohan/cooper_client"
+    },
+    {
+        "id": 7,
+        "name": "The Reactive Herald",
+        "image": "https://i.imgur.com/qDscCaY.png",
+        "description": "Group project. Paginated news paper with localization, subscription using Stripe. See github README for login credentials.",
+        "tech": "React front-end. Rails back-end. Stripe payments.",
+        "link": "https://the-reactive-herald-ca.netlify.app/",
+        "github": "https://github.com/sundqvistjohan/the_reactive_herald_client"
+    },
+    {
+        "id": 7,
+        "name": "TripWiz",
+        "image": "https://i.imgur.com/qDscCaY.png",
+        "description": "Group project. Trip generator/planner consuming various API's incl. Google.",
+        "tech": "React front-end. Rails back-end.",
+        "link": "https://tripwiz.netlify.app/",
+        "github": "https://github.com/sundqvistjohan/tripwiz_client"
     }
 ]
