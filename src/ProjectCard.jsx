@@ -7,12 +7,12 @@ const ProjectCard = (props) => {
       <a className="image" href={project.link}>
         <img src={project.image} />
       </a>
-      <div className="content">
+      <div className="content" id="card-content">
         <a className="ui header" href={project.link}>
           {project.name}
         </a>
-        <div className="description">{project.description}</div>
-        <i className="description">{project.tech}</i>
+        <div className="description" id="card-description">{project.description}</div>
+        <div className="description" id="card-tech"><i>{project.tech}</i></div>
       </div>
       <div className="extra content">
         <a href={project.github}>

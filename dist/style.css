@@ -1,25 +1,22 @@
-.menu {
-  height: 50px;
-}
 
 body {
-  /* background-image: url(https://images.pexels.com/photos/1054222/pexels-photo-1054222.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); */
-  /* background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed; */
+  
   background: rgb(110, 118, 255);
   background: linear-gradient(
     0deg,
-    rgba(110, 118, 255, 1) 0%,
-    rgba(255, 127, 127, 1) 100%
-  );
-  color: white;
-}
-
-#navlink {
-  color: whitesmoke;
-}
-
+    rgba(255, 127, 127, 1) 0%,
+    rgba(110, 118, 255, 1) 100%
+    );
+    color: whitesmoke;
+  }
+  
+  #navlink {
+    color: whitesmoke;
+  }
+  .menu {
+    height: 50px;
+  }
+  
 footer {
   position: fixed;
   display: block;
@@ -38,7 +35,7 @@ footer {
 }
 
 .ui.card {
-  width: 320px;
+  width: 350px;
   border-radius: 0;
   border: 5px solid whitesmoke;
   box-shadow: none;
@@ -49,8 +46,17 @@ footer {
   border-radius: 0px !important;
 }
 
-.description {
-  height: 57px;
+#card-content {
+  height: 180px;
+  position: relative;
+}
+#card-description {
+  height: 67px;
+}
+#card-tech {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 10px;
 }
 
 .projects-header {
