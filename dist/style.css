@@ -17,6 +17,16 @@ body {
   height: 50px;
 }
 
+.hello-header {
+  font-size: 140px;
+  line-height: 130px;
+  margin: 0px;
+}
+.hello-content {
+  font-size: 20px;
+  padding-bottom: 4rem;
+}
+
 footer {
   position: fixed;
   display: block;
@@ -76,15 +86,8 @@ footer {
 .main.container {
   margin-bottom: 5em;
 }
-
-.hello-header {
-  font-size: 140px;
-  line-height: 130px;
-  margin: 0px;
-}
-.hello-content {
-  font-size: 20px;
-  padding-bottom: 4rem;
+.cv-content {
+  padding-top: 20px;
 }
 .cv-header {
   font-size: 42px;

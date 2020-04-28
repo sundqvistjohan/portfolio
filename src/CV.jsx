@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 import CVContent from "./CVContent";
+import CVExtras from "./CVExtras";
 
 class CV extends Component {
   constructor() {
@@ -54,7 +55,7 @@ class CV extends Component {
               </div>
               <div className="twelve wide column">
                 <div className="cv-header">{resume[0].name}</div>
-                Web developer<p></p>
+                <span>Web developer</span>
                 <div className="cv-content">
                   <div className="column cv">{resume[0].short}</div>
 
@@ -64,40 +65,7 @@ class CV extends Component {
                   <h3 className="ui header">EDUCATION</h3>
                   <div className="ui three column grid">{educationList}</div>
 
-                  <div className="ui three column grid">
-                    <div className="row">
-                      <div className="column">
-                        <div className="ui header">SKILLS</div>
-                      </div>
-                      <div className="column">
-                        <div className="ui header">LANGUAGES</div>
-                      </div>
-                      <div className="column">
-                        <div className="ui header">INTERESTS</div>
-                      </div>
-                    </div>
-                    <div className="column">
-                      <div className="column cv">
-                        {resume[0].skills.map((item, index) => {
-                          return <li key={index}>{item}</li>;
-                        })}
-                      </div>
-                    </div>
-                    <div className="column">
-                      <div className="column cv">
-                        {resume[0].languages.map((item, index) => {
-                          return <li key={index}>{item}</li>;
-                        })}
-                      </div>
-                    </div>
-                    <div className="column">
-                      <div className="column cv">
-                        {resume[0].interests.map((item, index) => {
-                          return <li key={index}>{item}</li>;
-                        })}
-                      </div>
-                    </div>
-                  </div>
+                  <CVExtras resume={resume[0]} />
                 </div>
               </div>
             </div>
