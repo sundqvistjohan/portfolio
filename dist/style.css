@@ -49,6 +49,9 @@ footer {
   background-size: cover;
   background-position: center;
 }
+#cards-container {
+  margin-top: 4em;
+}
 
 #card-content {
   height: 180px;
@@ -60,13 +63,16 @@ footer {
 }
 #card-frontend {
   position: absolute;
-  bottom: 32px;
+  bottom: 54px;
 }
 #card-backend {
   position: absolute;
-  bottom: 10px;
+  bottom: 32px;
 }
-
+#card-repolink {
+  position: absolute;
+  bottom: 4px;
+}
 .main.container {
   margin-bottom: 5em;
 }

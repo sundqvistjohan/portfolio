@@ -30,7 +30,7 @@ class Projects extends Component {
 
     return (
       <div className="ui main container">
-        <div className="ui stackable three column grid aligned">
+        <div className="ui stackable three column grid aligned" id="cards-container">
           {projectsList}
         </div>
       </div>

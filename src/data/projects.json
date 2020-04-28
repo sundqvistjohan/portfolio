@@ -5,7 +5,7 @@
         "image": "./dist/img/portfolio-screen.png",
         "description": "This site. A portfolio of my fantastic web development work and projects.",
         "frontend": "React",
-        "backend": "",
+        "backend": "-",
         "link": "https://jsundq-portfolio.netlify.app/",
         "github": "https://github.com/sundqvistjohan/portfolio"
     },
@@ -25,6 +25,7 @@
         "image": "./dist/img/rps-screen.png",
         "description": "Rock-Paper-Scissors game versus a computer opponent.",
         "frontend": "React",
+        "backend": "-",
         "link": "https://sundq-rps.netlify.app/",
         "github": "https://github.com/sundqvistjohan/rock-paper-scissors"
     },
@@ -52,8 +53,8 @@
         "id": 7,
         "name": "TripWiz",
         "image": "./dist/img/tripwiz-screen.png",
-        "description": "Group project. Trip generator/planner consuming various API's incl. Google.",
-        "frontend": "React",
+        "description": "Group project. Trip generator/planner consuming various Google APIs.",
+        "frontend": "React, OAuth, Google APIs",
         "backend": "Ruby on Rails",
         "link": "https://tripwiz.netlify.app/",
         "github": "https://github.com/sundqvistjohan/tripwiz_client"
