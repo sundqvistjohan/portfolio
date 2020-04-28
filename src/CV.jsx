@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
 import CVContent from "./CVContent";
-import Image from "./img/IMG_1365.jpg";
 
 class CV extends Component {
   constructor() {
@@ -27,14 +26,14 @@ class CV extends Component {
     if (resume.length > 0) {
       experienceList = resume[0].experience.map((experience, index) => {
         return (
-          <div class="column" key={index}>
+          <div className="column" key={index}>
             <CVContent data={experience} />
           </div>
         );
       });
       educationList = resume[0].education.map((education, index) => {
         return (
-          <div class="column" key={index}>
+          <div className="column" key={index}>
             <CVContent data={education} />
           </div>
         );
@@ -45,10 +44,12 @@ class CV extends Component {
           <div className="ui stackable two column grid">
             <div className="row">
               <div className="center aligned column four wide">
-                <img
-                  src={Image}
+                <div
                   className="cv-image"
-                  style={{ marginTop: "8rem" }}
+                  style={{
+                    backgroundImage: `url(${resume[0].image})`,
+                    marginTop: "8rem",
+                  }}
                 />
               </div>
               <div className="twelve wide column">

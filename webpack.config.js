@@ -18,9 +18,9 @@ module.exports = {
         use: ["style-loader", "css-loader"],
       },
       {
-        test: /\.(png|svg|jpg|gif)$/,
-        use: ["file-loader"],
-      },
+        test: /\.(jpe?g|png|gif|svg)$/i,
+        loader: "url-loader?name=/img/[name].[ext]",
+      }
     ],
   },
   resolve: { extensions: ["*", ".js", ".jsx"] },

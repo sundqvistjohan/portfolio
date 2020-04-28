@@ -24,11 +24,7 @@ class Projects extends Component {
 
     if (projects.length > 0) {
       projectsList = projects.reverse().map((project) => {
-        return (
-          <div class="padcard" key={project.id}>
-            <ProjectCard project={project} />
-          </div>
-        );
+        return <ProjectCard project={project} />;
       });
     }
 

@@ -2,54 +2,59 @@
     {
         "id": 4,
         "name": "Portfolio",
-        "image": "https://i.imgur.com/XRiqtNs.png",
+        "image": "./dist/img/portfolio-screen.png",
         "description": "This site. A portfolio of my fantastic web development work and projects.",
-        "tech": "React",
+        "frontend": "React",
+        "backend": "",
         "link": "https://jsundq-portfolio.netlify.app/",
         "github": "https://github.com/sundqvistjohan/portfolio"
     },
     {
         "id": 5,
         "name": "Greta's Greens / Slowfood",
-        "image": "https://i.imgur.com/l8kULGs.png",
+        "image": "./dist/img/gretas-screen.png",
         "description": "Group project, a restaurant site in Ruby on Rails with user sign-up/login and shopping cart.",
-        "tech": "Ruby on rails",
+        "frontend": "Ruby on Rails",
+        "backend": "Ruby on Rails",
         "link": "https://slowfood-oct2019.herokuapp.com/",
         "github": "https://github.com/sundqvistjohan/slowfood-october-2019"
     },
     {
         "id": 7,
         "name": "Rock-Paper-Scissors",
-        "image": "https://i.imgur.com/qDscCaY.png",
+        "image": "./dist/img/rps-screen.png",
         "description": "Rock-Paper-Scissors game versus a computer opponent.",
-        "tech": "React",
+        "frontend": "React",
         "link": "https://sundq-rps.netlify.app/",
         "github": "https://github.com/sundqvistjohan/rock-paper-scissors"
     },
     {
         "id": 7,
         "name": "Cooper calculator",
-        "image": "https://i.imgur.com/qDscCaY.png",
+        "image": "./dist/img/cooper-screen.png",
         "description": "Cooper fitness calculator. Login credentials: user@mail.com / password.",
-        "tech": "React front-end, tested with cypress. Ruby on Rails back-end.",
+        "frontend": "React",
+        "backend": "Ruby on Rails",
         "link": "https://jsundq-cooper.netlify.app/",
         "github": "https://github.com/sundqvistjohan/cooper_client"
     },
     {
         "id": 7,
         "name": "The Reactive Herald",
-        "image": "https://i.imgur.com/qDscCaY.png",
+        "image": "./dist/img/reactiveherald-screen.png",
         "description": "Group project. Paginated news paper with localization, subscription using Stripe. See github README for login credentials.",
-        "tech": "React front-end. Rails back-end. Stripe payments.",
+        "frontend": "React, Stripe",
+        "backend": "Ruby on Rails, aws s3",
         "link": "https://the-reactive-herald-ca.netlify.app/",
         "github": "https://github.com/sundqvistjohan/the_reactive_herald_client"
     },
     {
         "id": 7,
         "name": "TripWiz",
-        "image": "https://i.imgur.com/qDscCaY.png",
+        "image": "./dist/img/tripwiz-screen.png",
         "description": "Group project. Trip generator/planner consuming various API's incl. Google.",
-        "tech": "React front-end. Rails back-end.",
+        "frontend": "React",
+        "backend": "Ruby on Rails",
         "link": "https://tripwiz.netlify.app/",
         "github": "https://github.com/sundqvistjohan/tripwiz_client"
     }

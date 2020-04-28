@@ -2,8 +2,8 @@
     {
         "id": "1",
         "name": "Johan Sundqvist",
-        "image": "/img/IMG_1365.jpg",
         "short": "Mechanical engineer turned Web developer.",
+        "image": "./dist/img/johan.jpg",
         "skills": [
             "React.js",
             "JavaScript",
