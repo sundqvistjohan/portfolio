@@ -1,5 +1,5 @@
 body {
-  /* background: rgb(255, 127, 127); */
+  background: rgb(110, 118, 255);
   background: linear-gradient(
     0deg,
     rgba(255, 127, 127, 1),
@@ -46,15 +46,15 @@ footer {
 
 .ui.card {
   width: 350px;
-  border-radius: 0;
-  border: 5px solid whitesmoke;
+  border-radius: 5px;
+  border: 3px solid white;
   box-shadow: none;
   margin: 1em !important;
 }
 
 #image {
   height: 260px;
-  border-radius: 0px !important;
+  border-radius: 5px !important;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -62,10 +62,9 @@ footer {
 #cards-container {
   margin-top: 4em;
 }
-
 #card-content {
-  height: 180px;
-  max-height: 180px;
+  height: 220px;
+  max-height: 220px;
   position: relative;
 }
 #card-description {
@@ -81,7 +80,7 @@ footer {
 }
 #card-repolink {
   position: absolute;
-  bottom: 4px;
+  bottom: 8px;
 }
 .main.container {
   margin-bottom: 5em;
