@@ -50,11 +50,35 @@ class CV extends Component {
                   style={{
                     backgroundImage: `url(${resume[0].image})`,
                     marginTop: "8rem",
+                    marginBottom: "2em",
                   }}
                 />
               </div>
               <div className="twelve wide column">
-                <div className="cv-header">{resume[0].name}</div>
+                <div className="ui two column grid">
+                  <div className="row">
+                    <div className="cv-header">{resume[0].name}</div>
+                    <div className="column">
+                      <a
+                        className="ui github icon"
+                        href="https://github.com/sundqvistjohan/"
+                        style={{ padding: "10px", color: "black" }}
+                      >
+                        <i className="github icon"></i>
+                        <span className="mobile hidden">GitHub</span>
+                      </a>
+                      <br></br>
+                      <a
+                        className="ui linkedin icon"
+                        href="https://www.linkedin.com/in/sundqvistjohan/"
+                        style={{ padding: "10px", color: "black" }}
+                      >
+                        <i className="linkedin icon"></i>
+                        <span className="mobile hidden">LinkedIn</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
                 <span>Web developer</span>
                 <div className="cv-content">
                   <div className="column cv">{resume[0].short}</div>
