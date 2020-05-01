@@ -4,7 +4,6 @@ import { BrowserRouter } from "react-router-dom";
 import { Switch, Route } from "react-router-dom";
 import Hello from "./Hello";
 import Header from "./Header";
-import Footer from "./Footer";
 import CV from "./CV";
 import Projects from "./Projects";
 import Contact from "./Contact";
@@ -19,7 +18,6 @@ const App = () => {
         <Route exact path="/projects" component={Projects}></Route>
         <Route exact path="/contact" component={Contact}></Route>
       </Switch>
-      <Footer />
     </div>
   );
 };
