@@ -18,13 +18,15 @@ body {
 }
 
 .hello-header {
-  font-size: 140px;
-  line-height: 130px;
+  font-size: 10rem;
   margin: 0px;
 }
-.hello-content {
-  font-size: 20px;
-  padding-bottom: 4rem;
+.hello-name {
+  font-size: 30px;
+  margin-bottom: 3rem;
+}
+#hello-button {
+  color: black !important;
 }
 
 #centered {
@@ -35,15 +37,15 @@ body {
 
 .ui.card {
   width: 350px;
-  border-radius: 5px;
-  border: 3px solid white;
+  border-radius: 0px;
+  /* border: 0px solid white; */
   box-shadow: none;
   margin: 1em !important;
 }
 
 #image {
   height: 260px;
-  border-radius: 5px !important;
+  border-radius: 0px !important;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
